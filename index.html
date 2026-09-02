@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Humanizer Nigeria — Free Tool to Humanize AI Text | Adire</title>
+<meta name="description" content="Adire is a free AI humanizer built for Nigeria. Paste AI-generated text and rewrite it to sound human, beat Turnitin and GPTZero, and pass AI-detection — trusted by Nigerian students and content writers.">
+<link rel="canonical" href="https://adirehumanizer.vercel.app/">
+
+<!-- Nigeria geo-targeting -->
+<meta name="geo.region" content="NG">
+<meta name="geo.placename" content="Nigeria">
+<meta name="ICBM" content="9.0820, 8.6753">
+<link rel="alternate" hreflang="en-ng" href="https://adirehumanizer.vercel.app/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Adire">
+<meta property="og:title" content="AI Humanizer Nigeria — Free Tool to Humanize AI Text">
+<meta property="og:description" content="Paste AI-generated text and rewrite it to sound human. Built for Nigerian students, content writers and job seekers. No sign-up, completely free.">
+<meta property="og:url" content="https://adirehumanizer.vercel.app/">
+<meta property="og:locale" content="en_NG">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Humanizer Nigeria — Free Tool to Humanize AI Text">
+<meta name="twitter:description" content="Rewrite AI text so it sounds human. Built for Nigerian students and writers.">
+
+<!-- Structured data: what this page/tool is -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Adire AI Humanizer",
+  "url": "https://adirehumanizer.vercel.app/",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any (web-based)",
+  "description": "Free AI text humanizer that rewrites AI-generated text to sound natural and pass AI detectors like Turnitin and GPTZero. Built for a Nigerian audience.",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Nigeria"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "NGN"
+  }
+}
+</script>
+
+<!-- Structured data: breadcrumb trail -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://adirehumanizer.vercel.app/" },
+    { "@type": "ListItem", "position": 2, "name": "AI Humanizer", "item": "https://adirehumanizer.vercel.app/#tool-anchor" },
+    { "@type": "ListItem", "position": 3, "name": "Nigeria", "item": "https://adirehumanizer.vercel.app/#who" }
+  ]
+}
+</script>
+
+<!-- Structured data: FAQ (populate answers to match the visible FAQ section below) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is there a free AI humanizer for Nigerian students?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Adire is free to use, requires no sign-up, and is built specifically with Nigerian students and writers in mind, including a Nigerian-English tone option." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can an AI humanizer bypass Turnitin?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Adire rewrites sentence structure and phrasing to reduce the patterns AI-detection tools like Turnitin and GPTZero look for. No tool can guarantee results, as detectors update regularly." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does using an AI humanizer break school rules in Nigeria?",
+      "acceptedAnswer": { "@type": "Answer", "text": "This depends on your institution's academic integrity policy. Many Nigerian universities treat AI-detector evasion as a violation even separate from AI use itself, so check your school's specific policy before submitting rewritten work." }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <div class="wordmark">Adire<span>.</span></div>
+    <nav class="site-nav">
+      <a href="#tool-anchor">Humanize</a>
+      <a href="#how">How it works</a>
+      <a href="#who">Who it's for</a>
+      <a href="/blog/">Blog</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+  <div class="wrap breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a><span class="sep">/</span><a href="#tool-anchor">AI Humanizer</a><span class="sep">/</span><span class="current">Nigeria</span>
+  </div>
+</header>
+
+<section class="hero" id="tool-anchor">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="badge">Free AI Humanizer for Nigeria</span>
+      <h1>Dye your text human.</h1>
+      <p class="lede" style="font-size:14px;color:#7C8598;margin-top:6px;">The free AI humanizer built for Nigerian students, content writers and job seekers.</p>
+      <p class="lede">Adire cloth is hand-dyed until no two pieces are alike. Paste in AI-generated text, and this does the same to your writing — rewritten so it reads natural, not machine-uniform, and passes AI detectors like Turnitin and GPTZero.</p>
+    </div>
+
+    <div class="tool">
+      <div class="tool-head">
+        <span class="label">adire / humanize</span>
+        <select id="tone">
+          <option value="neutral">Neutral tone</option>
+          <option value="naija">Nigerian English flavor</option>
+        </select>
+      </div>
+      <div class="tool-body">
+        <div class="pane">
+          <div class="pane-label">paste ai text</div>
+          <textarea id="input-text" placeholder="Paste your AI-generated text here…" maxlength="8000"></textarea>
+        </div>
+        <div class="pane">
+          <div class="pane-label">humanized result</div>
+          <div id="output-text" class="output-text empty">Your rewritten text will show up here.</div>
+        </div>
+      </div>
+      <div class="tool-foot">
+        <span class="char-count"><span id="char-count">0</span> / 8000</span>
+        <div style="display:flex;gap:10px;align-items:center;">
+          <button id="copy-btn" type="button">Copy</button>
+          <button id="dye-btn" type="button">Dye it</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div id="status-msg" class="status-msg"></div>
+  </div>
+</section>
+
+<section class="how" id="how">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <p class="intro">One pass through the model, tuned to break the patterns AI detectors look for — repetitive sentence rhythm, overly tidy structure, and stock phrasing.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="num">01</div>
+        <h3>Paste your text</h3>
+        <p>Drop in an essay, assignment, article, or any AI-drafted content.</p>
+      </div>
+      <div class="step">
+        <div class="num">02</div>
+        <h3>Pick a tone</h3>
+        <p>Keep it neutral, or let it lean into natural Nigerian English phrasing.</p>
+      </div>
+      <div class="step">
+        <div class="num">03</div>
+        <h3>It gets rewritten</h3>
+        <p>Sentence structure, rhythm and word choice are varied while the meaning stays exactly the same.</p>
+      </div>
+      <div class="step">
+        <div class="num">04</div>
+        <h3>Copy and use it</h3>
+        <p>Grab the result — no sign-up, no watermark, nothing saved on our side.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="who" id="who">
+  <div class="wrap">
+    <h2 style="font-size:24px;margin-bottom:28px;">Who it's for</h2>
+    <div class="who-grid">
+      <div class="who-item">
+        <h3>Students</h3>
+        <p>Clean up AI-assisted assignments before submitting through Turnitin, without losing your original meaning.</p>
+      </div>
+      <div class="who-item">
+        <h3>Content writers</h3>
+        <p>Nigerian freelancers producing blog posts and articles for clients who screen for AI-written content.</p>
+      </div>
+      <div class="who-item">
+        <h3>Job seekers</h3>
+        <p>Rework AI-drafted cover letters and personal statements so they sound like you, not a template.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blog" id="blog">
+  <div class="wrap">
+    <h2 style="font-size:24px;margin-bottom:8px;">From the blog</h2>
+    <p style="font-size:14px;color:#4B5563;max-width:56ch;margin:0 0 28px;">Guides on AI writing, detection, and academic integrity for a Nigerian audience.</p>
+    <div class="blog-list">
+      <a href="/blog/beat-turnitin-nigeria-2026" class="blog-item">
+        <span class="blog-eyebrow">Guide</span>
+        <h3>How Nigerian Students Can Beat Turnitin in 2026</h3>
+      </a>
+      <a href="/blog/ai-humanizer-vs-paraphrasing-tool" class="blog-item">
+        <span class="blog-eyebrow">Comparison</span>
+        <h3>AI Humanizer vs Paraphrasing Tool: What Nigerian Writers Should Know</h3>
+      </a>
+      <a href="/blog/is-ai-humanizer-allowed-nigerian-universities" class="blog-item">
+        <span class="blog-eyebrow">Explainer</span>
+        <h3>Is Using an AI Humanizer Against School Rules in Nigeria?</h3>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <h2 style="font-size:24px;margin-bottom:28px;">Common questions</h2>
+    <div class="faq-item">
+      <h3>Is there a free AI humanizer for Nigerian students?</h3>
+      <p>Yes. Adire is free to use, requires no sign-up, and includes a Nigerian-English tone option built for how Nigerian students and writers actually write.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can an AI humanizer bypass Turnitin?</h3>
+      <p>Adire rewrites sentence structure and phrasing to reduce the patterns AI-detection tools like Turnitin and GPTZero look for. No tool can guarantee results, since detectors update regularly.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Does using an AI humanizer break school rules in Nigeria?</h3>
+      <p>It depends on your institution's academic integrity policy. Many Nigerian universities treat AI-detector evasion as a violation on its own, separate from AI use itself — check your school's specific rules before submitting rewritten work.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>Adire — free AI text humanizer, built for Nigeria.</span>
+    <span>Built in Lagos.</span>
+  </div>
+</footer>
+
+<script>
+  // Vercel serves api/humanize.js at this same-origin path automatically — no URL to configure
+  const WORKER_URL = "/api/humanize";
+
+  const inputEl = document.getElementById('input-text');
+  const outputEl = document.getElementById('output-text');
+  const dyeBtn = document.getElementById('dye-btn');
+  const copyBtn = document.getElementById('copy-btn');
+  const charCount = document.getElementById('char-count');
+  const statusMsg = document.getElementById('status-msg');
+  const toneSelect = document.getElementById('tone');
+
+  inputEl.addEventListener('input', () => {
+    charCount.textContent = inputEl.value.length;
+  });
+
+  dyeBtn.addEventListener('click', async () => {
+    const text = inputEl.value.trim();
+    statusMsg.textContent = '';
+
+    if (!text) {
+      statusMsg.textContent = 'Paste some text first.';
+      return;
+    }
+
+    dyeBtn.disabled = true;
+    dyeBtn.textContent = 'Dyeing…';
+    outputEl.classList.remove('empty');
+    outputEl.textContent = '…';
+
+    try {
+      const res = await fetch(WORKER_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text, tone: toneSelect.value })
+      });
+      const data = await res.json();
+
+      if (!res.ok || data.error) {
+        statusMsg.textContent = data.error || 'Something went wrong. Try again.';
+        outputEl.textContent = '';
+        outputEl.classList.add('empty');
+        outputEl.textContent = 'Your rewritten text will show up here.';
+      } else {
+        outputEl.textContent = data.result;
+        outputEl.classList.add('dyeing');
+        setTimeout(() => outputEl.classList.remove('dyeing'), 900);
+      }
+    } catch (err) {
+      statusMsg.textContent = 'Could not reach the server. Check your connection.';
+    } finally {
+      dyeBtn.disabled = false;
+      dyeBtn.textContent = 'Dye it';
+    }
+  });
+
+  copyBtn.addEventListener('click', () => {
+    const text = outputEl.textContent;
+    if (!text || outputEl.classList.contains('empty')) return;
+    navigator.clipboard.writeText(text).then(() => {
+      copyBtn.textContent = 'Copied';
+      setTimeout(() => (copyBtn.textContent = 'Copy'), 1500);
+    });
+  });
+</script>
+
+</body>
+</html>
