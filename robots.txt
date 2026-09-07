@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://adire-humanizer.vercel.app/sitemap.xml
